@@ -1,9 +1,9 @@
 # Проект [«Киноман»](https://up.htmlacademy.ru/profession/react-lite/2/lite-javascript-2/2/project/cinemaddict)
 
+---
+
 * Студент: [PalNikolai4](https://github.com/PalNikolai4).
 * Наставник: [Кекс](https://htmlacademy.ru/frontender-diy).
-
----
 
 ---
 
