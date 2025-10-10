@@ -1,5 +1,6 @@
-import FilmButtonMoreView from './view/show-more-button-view.js';
 import { render } from './render.js';
+import HeaderProfileView from './view/header-profile-view.js';
+import FilmButtonMoreView from './view/film-button-more-view.js';
 
-const siteMainElement = document.querySelector('.main');
-render(new FilmButtonMoreView(), siteMainElement);
+render(new HeaderProfileView(), document.querySelector('.header'));
+render(new FilmButtonMoreView(), document.querySelector('.main'));

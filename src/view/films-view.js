@@ -1,10 +1,10 @@
 import { createElement } from '../render';
 
-const createFilmButtonMoreTemplate = () => '<h1>HTML razmetka</h1>';
+const createFilmsViewTemplate = () => '<section class="films"></section>';
 
-class FilmButtonMoreView {
+class FilmsView {
   getTemplate() {
-    return createFilmButtonMoreTemplate();
+    return createFilmsViewTemplate();
   }
 
   getElement() {
@@ -19,4 +19,4 @@ class FilmButtonMoreView {
   }
 }
 
-export default FilmButtonMoreView;
+export default FilmsView;
