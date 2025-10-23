@@ -1,6 +1,6 @@
 import { createElement } from '../render';
 
-const createFilmListContainerViewTemplate = () => `<div class="films-list__container"></div>`;
+const createFilmListContainerViewTemplate = () => '<div class="films-list__container"></div>';
 
 class FilmListContainerView {
   getTemplate() {
@@ -13,6 +13,7 @@ class FilmListContainerView {
     }
     return this.element;
   }
+
   removeElement() {
     this.element = null;
   }
