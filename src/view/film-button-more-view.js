@@ -1,4 +1,4 @@
-import { createElement } from '../render';
+import {createElement} from '../render';
 
 const createFilmButtonMoreTemplate = () => '<button class="films-list__show-more">Show more</button>';
 
