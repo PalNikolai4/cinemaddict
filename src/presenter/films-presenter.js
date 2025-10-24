@@ -19,12 +19,16 @@ class FilmsPresenter {
     render(new SortView(), this.container);
     render(this.filmsComponent, this.container);
     render(this.filmListComponent, this.filmsComponent.getElement());
+
+
     render(this.filmListContainerComponent, this.filmListComponent.getElement());
     for (let i = 0; i < FILM_COUNT; i++) {
       render(new FilmCardView(), this.filmListContainerComponent.getElement());
     }
-    render(new FilmButtonMoreView(), this.FilmListView.getElement());
+    render(new FilmButtonMoreView(), this.filmListComponent.getElement());
 
     // render(new FilmDetailsView(), this.container.parentElement);
-  }
+  };
 }
+
+export default FilmsPresenter;

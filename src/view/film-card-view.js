@@ -1,12 +1,13 @@
 import {createElement} from '../render';
-import {createFilmCardInfoTemplate} from './film-card-info-template';
-import {createFilmCardControlsTemplate} from './film-card-controls-template';
+import createFilmCardInfoTemplate from './film-card-info-template';
+import createFilmCardControlsTemplate from './film-card-controls-template';
 
 const createFilmCardTemplate = () =>
   `<article class="film-card">
     ${createFilmCardInfoTemplate()}
     ${createFilmCardControlsTemplate()}
-  </article>`;
+  </article>`
+  ;
 
 class FilmCardView {
   getTemplate() {
