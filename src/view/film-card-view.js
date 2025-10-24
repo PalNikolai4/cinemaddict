@@ -6,8 +6,7 @@ const createFilmCardTemplate = () =>
   `<article class="film-card">
     ${createFilmCardInfoTemplate()}
     ${createFilmCardControlsTemplate()}
-  </article>`
-  ;
+  </article>`;
 
 class FilmCardView {
   getTemplate() {
