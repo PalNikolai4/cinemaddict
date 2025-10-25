@@ -1,7 +1,7 @@
-import {createElement} from '../render';
-import {createFilmDetailsInfoTemplate} from './film-details-info-template';
-import {createFilmDetailsControlsTemplate} from './film-details-controls-template';
-// import {createFilmDetailsCommentsTemplate} from './film-details-comments-template.js'
+import {createElement} from '../render.js';
+import {createFilmDetailsInfoTemplate} from './film-details-info-template.js';
+import {createFilmDetailsControlsTemplate} from './film-details-controls-template.js';
+import {createFilmDetailsCommentsTemplate} from './film-details-comments-template.js'
 // import {createFilmDetailsNewCommentTemplate} from './film-details-new-comment-template.js'
 
 const createFilmDetailsTemplate = () =>
@@ -12,13 +12,13 @@ const createFilmDetailsTemplate = () =>
           <button class="film-details__close-btn" type="button">close</button>
         </div>
         ${createFilmDetailsInfoTemplate()}
-        ${createFilmDetailsControlsTemplate}
+        ${createFilmDetailsControlsTemplate()}
       </div>
 
       <div class="film-details__bottom-container">
         <section class="film-details__comments-wrap">
           <h3 class="film-details__comments-title">Comments <span class="film-details__comments-count">4</span></h3>
-          ${createFilmDetailsCommentsTemplate}
+          ${createFilmDetailsCommentsTemplate()}
           ${createFilmDetailsNewCommentTemplate}
         </section>
       </div>
