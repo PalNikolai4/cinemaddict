@@ -2,7 +2,7 @@ import {createElement} from '../render.js';
 import {createFilmDetailsInfoTemplate} from './film-details-info-template.js';
 import {createFilmDetailsControlsTemplate} from './film-details-controls-template.js';
 import {createFilmDetailsCommentsTemplate} from './film-details-comments-template.js'
-// import {createFilmDetailsNewCommentTemplate} from './film-details-new-comment-template.js'
+import { createFilmDetailsNewCommentTemplate } from './film-details-new-comment-template.js';
 
 const createFilmDetailsTemplate = () =>
   `<section class="film-details">
@@ -19,7 +19,7 @@ const createFilmDetailsTemplate = () =>
         <section class="film-details__comments-wrap">
           <h3 class="film-details__comments-title">Comments <span class="film-details__comments-count">4</span></h3>
           ${createFilmDetailsCommentsTemplate()}
-          ${createFilmDetailsNewCommentTemplate}
+          ${createFilmDetailsNewCommentTemplate()}
         </section>
       </div>
     </form>
