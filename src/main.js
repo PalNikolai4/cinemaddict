@@ -4,7 +4,6 @@ import FilterView from './view/filter-view.js';
 import FooterStatisticView from './view/footer-statistic-view.js';
 import FilmsPresenter from './presenter/films-presenter.js';
 
-
 const bodyElement = document.querySelector('body');
 const siteHeaderElement = bodyElement.querySelector('.header');
 const siteMainElement = bodyElement.querySelector('.main');

@@ -7,6 +7,7 @@ import FilmListView from '../view/film-list-view.js';
 import FilmListContainerView from '../view/film-list-container-view.js';
 import FilmCardView from '../view/film-card-view.js';
 import FilmButtonMoreView from '../view/film-button-more-view.js';
+// import FilmDetailsView from '../view/film-details-view.js';  // -
 
 class FilmsPresenter {
   filmsComponent = new FilmsView();
@@ -27,7 +28,7 @@ class FilmsPresenter {
     }
     render(new FilmButtonMoreView(), this.filmListComponent.getElement());
 
-    // render(new FilmDetailsView(), this.container.parentElement);
+    // render(new FilmDetailsView(), this.container.parentElement); // -
   };
 }
 
