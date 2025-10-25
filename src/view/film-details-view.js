@@ -1,6 +1,6 @@
 import {createElement} from '../render';
 import {createFilmDetailsInfoTemplate} from './film-details-info-template';
-// import {createFilmDetailsControlsTemplate} from './film-details-controls-template.js'
+import {createFilmDetailsControlsTemplate} from './film-details-controls-template';
 // import {createFilmDetailsCommentsTemplate} from './film-details-comments-template.js'
 // import {createFilmDetailsNewCommentTemplate} from './film-details-new-comment-template.js'
 
