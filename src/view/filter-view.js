@@ -1,6 +1,6 @@
 import {createElement} from '../render.js';
 
-const createFilterViewTemplate = () =>
+const createFilterTemplate = () =>
   `<nav class="main-navigation">
     <a href="#all" class="main-navigation__item main-navigation__item--active">All movies</a>
     <a href="#watchlist" class="main-navigation__item">Watchlist <span class="main-navigation__item-count">13</span></a>
@@ -10,7 +10,7 @@ const createFilterViewTemplate = () =>
 
 class FilterView {
   getTemplate() {
-    return createFilterViewTemplate();
+    return createFilterTemplate();
   }
 
   getElement() {

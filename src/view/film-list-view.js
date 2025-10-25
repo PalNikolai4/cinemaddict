@@ -1,13 +1,13 @@
 import { createElement } from '../render';
 
-const createFilmListViewTemplate = () =>
+const createFilmListTemplate = () =>
   `<section class="films-list">
       <h2 class="films-list__title visually-hidden">All movies. Upcoming</h2>
   </section>`;
 
 class FilmListView {
   getTemplate() {
-    return createFilmListViewTemplate();
+    return createFilmListTemplate();
   }
 
   getElement() {

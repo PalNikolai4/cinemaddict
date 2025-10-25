@@ -1,10 +1,10 @@
 import {createElement} from '../render';
 
-const createFilmsViewTemplate = () => '<section class="films"></section>';
+const createFilmsTemplate = () => '<section class="films"></section>';
 
 class FilmsView {
   getTemplate() {
-    return createFilmsViewTemplate();
+    return createFilmsTemplate();
   }
 
   getElement() {

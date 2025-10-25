@@ -1,6 +1,6 @@
 import { createElement } from '../render';
 
-const createSortViewTemplate = () =>
+const createSortTemplate = () =>
   `<ul class="sort">
     <li><a href="#" class="sort__button sort__button--active">Sort by default</a></li>
     <li><a href="#" class="sort__button">Sort by date</a></li>
@@ -9,7 +9,7 @@ const createSortViewTemplate = () =>
 
 class SortView {
   getTemplate() {
-    return createSortViewTemplate();
+    return createSortTemplate();
   }
 
   getElement() {
